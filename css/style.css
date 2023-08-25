@@ -1,0 +1,147 @@
+*{box-sizing: 
+    border-box; 
+    font-family: 'Roboto';
+    margin: 0px; 
+    padding: 0px;}
+
+header{
+    margin-bottom: 150px;
+}
+
+header article{
+    align-items: center;
+    background-color: #D1891C;
+    display: flex;
+    height: 38px;
+}
+
+h1{
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    font-size: 40px;
+    font-weight: normal;
+    height: 100px;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section{
+    height: 526px;
+    margin-bottom: 200px;
+    position: relative;
+    width: 300px;
+    z-index: -1;
+}
+
+.rostro{
+    border-radius: 50%;
+    height: 120px;
+    left: 90px;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+    z-index: 1;
+}
+
+.fondo{
+    height: 192px;
+    width: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+.corazon{
+    height: 30px;
+    left: 30px;
+    position: absolute;
+    top: 14px;
+    width: 20px;
+    z-index: 1;
+}
+
+section p {
+    font-family: Roboto;
+    height: 113px;
+    left: 16px;
+    position: absolute;
+    bottom: 104px;
+    width: 267px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+section article{
+    align-items: center;
+    background-color: #00669F;
+    bottom: 18px;
+    color: white;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    left: 85px;
+    position: absolute;
+    width: 128px;
+    z-index: 1;
+}
+
+section h2{
+    bottom: 227px;
+    font-size: 30px;
+    font-weight: normal;
+    left: 50%;
+    position: absolute;
+    text-transform: uppercase;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+}
+
+.rectangulo{
+    background-color: #F3F3F3;
+    bottom: 0%;
+    height: 336px;
+    position: absolute;
+    width: 300px;
+}
+
+aside{
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    height: 40px;
+    justify-content: center;
+    position: fixed;
+    right: 1%;
+    top: 50%;
+    width: 40px;
+    z-index: 2;
+}
+
+@media (min-width: 480px) {
+    main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
